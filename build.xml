@@ -21,7 +21,7 @@
     <echo>prompt> ant all </echo>
   </target>
 
-  <!-- Define the CLASSPATH -->
+  <!-- Define the CLASSPATH for project-->
   <path id="compile.classpath">
     <fileset dir="${tcserver.home}/bin">
       <include name="*.jar"/>
